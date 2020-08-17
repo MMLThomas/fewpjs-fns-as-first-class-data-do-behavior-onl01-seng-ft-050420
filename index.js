@@ -19,7 +19,11 @@ function handleClick(e) {
     else if (parseInt(time) > 12 && parseInt(time) < 17) {
       return "Good Afternoon"
     }
+<<<<<<< HEAD
     else if (parseInt(time) < 24){
+=======
+    else {
+>>>>>>> 9210f28163b8fb81879fa0b579ed4a68cf17d63a
       return "Good Evening"
     }
       
@@ -27,5 +31,9 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
  function displayMessage(arg){
+<<<<<<< HEAD
     document.getElementById("greeting").innerText = arg;
+=======
+   document.getElementById('greeting') = arg;
+>>>>>>> 9210f28163b8fb81879fa0b579ed4a68cf17d63a
  }
